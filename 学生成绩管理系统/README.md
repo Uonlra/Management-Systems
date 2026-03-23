@@ -120,9 +120,9 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ## 📝 数据持久化说明
 
-⚠️ **重要**: 当前版本的UI使用浏览器内存存储数据，刷新页面后数据会丢失。
+⚠️ **重要**: 当前版本的UI使用浏览器内存存储数据，刷新页面后可能导致数据会丢失。
 
-如果需要持久化存储，可以：
+如果需要持久化存储，可以fork本仓库然后提交贡献 <3：
 1. 使用后端服务器搭配数据库
 2. 使用浏览器的 LocalStorage API
 3. 使用原始的 C++ 命令行程序时数据持久化
